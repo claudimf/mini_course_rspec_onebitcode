@@ -17,7 +17,7 @@ Capítulos:
 
 - 1° Introdução ao mundo dos Testes
   - 5° 'Desafio do herói' #1( a pasta 'lib' foi nomeada como 'hero_challenge', pois era uma pasta reservada do framework)  
-    - Rodar 'desafio do herói' :  
+    - Rodar ['desafio do herói'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/hero_challenge/hero_spec.rb):  
     ```sh
     rspec ./spec/hero_challenge/hero_spec.rb
     ```
