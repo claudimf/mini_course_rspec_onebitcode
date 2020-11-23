@@ -38,7 +38,10 @@ Capítulos:
   ```sh
   rspec spec/models/user_spec.rb
   ```
-
+  - 6° ['Desafio do herói #2'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/models/weapon_spec.rb)
+  ```sh
+  rspec spec/models/weapon_spec.rb
+  ```
 
 # Exigências
 
