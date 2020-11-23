@@ -12,6 +12,19 @@ Capítulos:
   - 3° O que é o RSPEC  
   - 4° Criando seu primeiro teste  
   - 5° 'Desafio do herói' #1  
+- 2° Dominando o básico
+  - 1° Principais elementos do Rspec
+  - 2° O que são os matchers
+- 3° Rspec e Ruby On Rails
+  - 1° Instalando o Rspec no Rails
+  - 2° Usando Generators
+- 4° Testando Models
+  - 1° Porque e quando testar models
+  - 2° Preparando nosso projeto para o teste
+  - 3° Testando o Model
+  - 4° Melhorando nosso teste com a Gem FFAKER
+  - 5° Melhorando nosso teste com a Gem Factory Bot
+  - 6° Desafio do herói #2
 
 # Exercícios solucionados
 
