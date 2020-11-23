@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_23_101918) do
+ActiveRecord::Schema.define(version: 2020_11_23_111634) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,16 @@ ActiveRecord::Schema.define(version: 2020_11_23_101918) do
     t.string "nickname"
     t.integer "kind"
     t.integer "level"
+  end
+
+  create_table "weapons", force: :cascade do |t|
+    t.string "name"
+    t.string "description"
+    t.integer "power_base", default: 3000
+    t.integer "power_step", default: 100
+    t.integer "level", default: 1
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
