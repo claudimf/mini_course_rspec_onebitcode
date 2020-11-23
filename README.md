@@ -34,6 +34,11 @@ Capítulos:
     ```sh
     rspec ./spec/hero_challenge/hero_spec.rb
     ```
+- 4° ['Testando Models'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/models/user_spec.rb):
+  ```sh
+  rspec spec/models/user_spec.rb
+  ```
+
 
 # Exigências
 
