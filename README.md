@@ -1,6 +1,6 @@
 # Mini curso de testes com Rspec.
 
-👋 Olá, Seja Bem-vindo(a) ao mini curso de testes com Rspec.
+👋 Olá, Seja Bem-vindo(a) ao [mini curso de testes com Rspec.](https://onebitcode.com/course/minicurso-de-testes/)
 
 # Aulas
 
