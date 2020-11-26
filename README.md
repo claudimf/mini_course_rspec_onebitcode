@@ -25,6 +25,11 @@ Capítulos:
   - 4° Melhorando nosso teste com a Gem FFAKER
   - 5° Melhorando nosso teste com a Gem Factory Bot
   - 6° Desafio do herói #2
+- 5° Testes de Request
+  - O que são testes de request
+  - Preparando nosso projeto para o teste
+  - Testando nosso Controller
+  - Desafio do herói #3
 
 # Exercícios solucionados
 

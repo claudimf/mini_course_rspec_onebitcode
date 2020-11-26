@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Current Power</th>
+      <th>Title</th>
+      <th>Power Step</th>
+      <th>Show</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @weapons.each_with_index do |weapon| %>
+      <tr>
+        <td><%= weapon.name %></td>
+        <td><%= weapon.current_power %></td>
+        <td><%= weapon.title %></td>
+        <td><%= weapon.power_step %></td>
+        <td><%= link_to "#{weapon.name}".html_safe, weapon %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
