@@ -47,6 +47,14 @@ Capítulos:
   ```sh
   rspec spec/models/weapon_spec.rb
   ```
+- 5° ['Testes de Request'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/users_spec.rb):
+  ```sh
+  rspec spec/requests/users_spec.rb
+  ```
+  - 6° ['Desafio do herói #3'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/weapons_spec.rb)
+  ```sh
+  rspec spec/requests/weapons_spec.rb
+  ```
 
 # Exigências
 

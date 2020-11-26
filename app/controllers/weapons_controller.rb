@@ -1,4 +1,5 @@
 class WeaponsController < ApplicationController
+  before_action :set_weapon, only: [:show, :edit, :destroy]
   def index
     @weapons = Weapon.all
   end
@@ -9,6 +10,8 @@ class WeaponsController < ApplicationController
   end
 
   def destroy
+    @weapon.destroy
+    redirect_to weapons_url, notice: 'Weapon was deleted'
   end
 
   def show
@@ -18,5 +21,9 @@ class WeaponsController < ApplicationController
 
   def weapon_params
     params.require(:weapon).permit(:name, :description)
+  end
+
+  def set_weapon
+    @weapon = Weapon.find(params[:id])
   end
 end
