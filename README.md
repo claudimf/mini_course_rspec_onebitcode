@@ -13,36 +13,36 @@ Capítulos:
   - 4° Criando seu primeiro teste  
   - 5° 'Desafio do herói' #1  
 - 2° Dominando o básico
-  - 1° Principais elementos do Rspec
-  - 2° O que são os matchers
+  - 6° Principais elementos do Rspec
+  - 7° O que são os matchers
 - 3° Rspec e Ruby On Rails
-  - 1° Instalando o Rspec no Rails
-  - 2° Usando Generators
+  - 8° Instalando o Rspec no Rails
+  - 9° Usando Generators
 - 4° Testando Models
-  - 1° Porque e quando testar models
-  - 2° Preparando nosso projeto para o teste
-  - 3° Testando o Model
-  - 4° Melhorando nosso teste com a Gem FFAKER
-  - 5° Melhorando nosso teste com a Gem Factory Bot
-  - 6° Desafio do herói #2
+  - 10° Porque e quando testar models
+  - 11° Preparando nosso projeto para o teste
+  - 12° Testando o Model
+  - 13° Melhorando nosso teste com a Gem FFAKER
+  - 14° Melhorando nosso teste com a Gem Factory Bot
+  - 15° Desafio do herói #2
 - 5° Testes de Request
-  - 1° O que são testes de request
-  - 2° Preparando nosso projeto para o teste
-  - 3° Testando nosso Controller
-  - 4° Desafio do herói #3
+  - 16° O que são testes de request
+  - 17° Preparando nosso projeto para o teste
+  - 18° Testando nosso Controller
+  - 19° Desafio do herói #3
 - 6° Testando uma API
-  - 1° Porque e quando testar APIs
-  - 2° Preparando nosso projeto para o teste
-  - 3° Testando o update enemies da API
-  - 4° Testando o destroy enemies da API
-  - 5° Melhorando nosso teste com um Helper Rspec
-  - 6° Melhorando nosso teste com before e let
-  - 7° Desafio do herói #4
+  - 20° Porque e quando testar APIs
+  - 21° Preparando nosso projeto para o teste
+  - 22° Testando o update enemies da API
+  - 23° Testando o destroy enemies da API
+  - 24° Melhorando nosso teste com um Helper Rspec
+  - 25° Melhorando nosso teste com before e let
+  - 26° Desafio do herói #4
 - 7° Conclusão
-  - 1° Vitória
+  - 27° Vitória
 - 8° Extras (links importantes)
-  - 1° Links importantes
-  - 2° Leituras recomendadas
+  - 28° Links importantes
+  - 29° Leituras recomendadas
 
 # Exercícios solucionados
 
@@ -64,7 +64,7 @@ Capítulos:
   ```sh
   rspec spec/requests/users_spec.rb
   ```
-  - 4° ['Desafio do herói #3'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/weapons_spec.rb)
+  - 19° ['Desafio do herói #3'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/weapons_spec.rb)
   ```sh
   rspec spec/requests/weapons_spec.rb
   ```
