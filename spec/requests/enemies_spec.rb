@@ -56,4 +56,36 @@ RSpec.describe 'Enemies', type: :request do
       end
     end
   end
+
+  describe 'Get /enemies' do
+    it ' returns success status' do
+      get enemies_path
+      expect(response).to have_http_status(200)
+    end
+
+    it ' the user´s title is present' do
+      enemies = create_list(:enemy, 3)
+      get enemies_path
+      enemies.each do |enemy|
+        expect(json).to include(JSON.parse(enemy.to_json))
+      end
+    end
+  end
+
+  describe 'POST /users' do
+    context ' when it has valid parameters' do
+      it ' creates the user with correct attributes' do
+        enemy_attributes = FactoryBot.attributes_for(:enemy)
+        post enemies_path, params: { enemy: enemy_attributes }
+        expect(Enemy.last).to have_attributes(enemy_attributes)
+        expect(Enemy.all.count).to eq(1)
+      end
+    end
+    context ' when it has no valid parameters' do
+      it ' does not create user' do
+        enemy_attributes = Enemy.new.attributes
+        expect{ post enemies_path, params: { enemy: enemy_attributes } }.to_not change(Enemy, :count)
+      end
+    end
+  end
 end
