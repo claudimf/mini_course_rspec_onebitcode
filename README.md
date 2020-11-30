@@ -56,7 +56,7 @@ Capítulos:
   ```sh
   rspec spec/models/user_spec.rb
   ```
-  - 6° ['Desafio do herói #2'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/models/weapon_spec.rb)
+  - 15° ['Desafio do herói #2'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/models/weapon_spec.rb)
   ```sh
   rspec spec/models/weapon_spec.rb
   ```
@@ -67,6 +67,14 @@ Capítulos:
   - 19° ['Desafio do herói #3'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/weapons_spec.rb)
   ```sh
   rspec spec/requests/weapons_spec.rb
+  ```
+- 6° ['Testando uma API'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/enemies_spec.rb):
+  ```sh
+  rspec spec/requests/enemies_spec.rb
+  ```
+  - 19° ['Desafio do herói #4'](https://github.com/claudimf/mini_course_rspec_onebitcode/blob/main/spec/requests/enemies_spec.rb)
+  ```sh
+  rspec spec/requests/enemies_spec.rb
   ```
 
 # Exigências
@@ -112,7 +120,7 @@ Para derrubar e subir a instância do docker novamente, execute:
 ```sh
 docker-compose down && docker-compose up
 ```
-# Popular o banco
+# Criar o banco
 Acesse o container da aplicação, execute:
 
 ```sh
