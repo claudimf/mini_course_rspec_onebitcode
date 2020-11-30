@@ -20,6 +20,20 @@ RSpec.describe 'Enemies', type: :request do
       end
     end
 
+    context ' when the enemy exists and params is invalid' do
+      let(:enemy) { create(:enemy) }
+      let(:enemy_attributes) { {name: nil, kind: nil, level: nil} }
+      before(:each) { put "/enemies/#{enemy.id}", params: {enemy: enemy_attributes} }
+
+      it ' return status code 422 (Unprocessable Entity)' do
+        expect(response).to have_http_status(422)
+      end
+
+      it ' return erros messages for attributes' do
+        expect(json).to eq({"message"=>{"level"=>["is not a number", "can't be blank"], "name"=>["can't be blank"], "kind"=>["can't be blank"]}})
+      end
+    end
+
     context ' when the enemy does not exists' do
       before(:each) { put '/enemies/0', params: attributes_for(:enemy) }
       it ' return status code 404' do
